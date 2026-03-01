@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav-links" id="nav-links">
+                <a href="#home">ABOUT ME</a>
+                <a href="#education">EDUCATION</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <div class="profile-about-container" id="home">
+            <div class="profile">
+                <img src="port_imgs/MAIN.JPG" alt="Breanna Antero" class="profile-pic"
+                     onmouseover="this.src='port_imgs/SECOND.jpg';" onmouseout="this.src='port_imgs/MAIN.JPG';">
+                <div class="name-title">
+                    <h1>Breanna Antero</h1>
+                    <h2>IT Student</h2>
+                </div>
+            </div>
+
+            <div class="about-me">
+                <div class="about-me-header">
+                    <h2>About Me</h2>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="darkModeToggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <p>I am Breanna Binayan Antero, a BSIT student specializing in Web Technology at the University of the Cordilleras. Passionate about becoming a Frontend Web Developer, I am committed to advancing my skills in software development, programming, and emerging technologies. With strong adaptability and a dedication to continuous learning, I seek opportunities to contribute to impactful projects in this dynamic field.</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="education">
+        <div class="education">
+            <h3 class="head">EDUCATION</h3>
+            <p>My academic journey has been a cornerstone of my growth as an IT student. Through rigorous coursework and hands-on projects, I developed a strong foundation in Information Technology, honing both technical and analytical skills.</p>
+            <div class="educ-timeline">
+                <div class="educ-bg">
+                    <h4>University of the Cordilleras</h4>
+                    <p class="degree">Bachelor of Science in Information Technology - Major in Web Technology</p>
+                    <p class="year">2023 - 2026</p>
+                </div>
+                <p class="desc">The University of the Cordilleras is renowned for its beautiful campus and focus on technology and innovation. It provides a conducive environment for learning and personal growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills">
+            <h3>SKILLS</h3>
+            <p>Through hands-on coursework and projects, I have gained practical experience in web development and database management.</p>
+            <div id="graph">
+                <div class="skill">
+                    <p>HTML5 & CSS3</p>
+                    <div class="stars">★★★★☆</div>
+                    <span class="description">Responsive design, modern layouts</span>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="stars">★☆☆☆☆</div>
+                    <span class="description">Basic DOM manipulation</span>
+                </div>
+                <div class="skill">
+                    <p>PHP</p>
+                    <div class="stars">★★★☆☆</div>
+                    <span class="description">Server-side scripting, CRUD</span>
+                </div>
+                <div class="skill">
+                    <p>MySQL</p>
+                    <div class="stars">★★★★☆</div>
+                    <span class="description">Database design, queries</span>
+                </div>
+                <div class="skill">
+                    <p>Web Design & UI/UX</p>
+                    <div class="stars">★★★★☆</div>
+                    <span class="description">User-centered design</span>
+                </div>
+                <div class="skill">
+                    <p>Version Control (Git)</p>
+                    <div class="stars">★★★★☆</div>
+                    <span class="description">GitHub workflows</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h3>PROJECTS</h3>
+        <div class="project">
+            <h4>Product Landing Page</h4>
+            <ul>
+                <li>Responsive coffee shop showcase with modern design</li>
+                <li>Clean semantic code with Flexbox/Grid layouts</li>
+                <li>Smooth scrolling, hover effects, responsive navigation</li>
+                <li>Optimized for all devices with professional typography</li>
+            </ul>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <div class="project-links">
+                <a href="https://github.com/brenn-08/dejabrew.git" class="pl">GitHub Repository</a>
+            </div>
+        </div>
+        <div class="project">
+            <h4>Survey Form</h4>
+            <ul>
+                <li>Online feedback collection for CITCS department</li>
+                <li>Clean, responsive form design</li>
+                <li>Gathers department survey responses efficiently</li>
+                <li>Works perfectly on all devices</li>
+            </ul>
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+            <div class="project-links">
+                <a href="https://github.com/brenn-08/citcs-survey" class="pl">GitHub Repository</a>
+            </div>
+        </div>
+        <div class="project">
+            <h4>Library Management System</h4>
+            <ul>
+                <li>Web-based library management system</li>
+                <li>Full-stack book tracking application</li>
+                <li>Tracks books, users, check-ins/check-outs</li>
+                <li>Complete CRUD operations across all devices</li>
+            </ul>
+            <p><strong>Technologies:</strong> HTML, CSS, PHP, MySQL</p>
+            <div class="project-links">
+                <a href="https://github.com/brenn-08/booksy_LMS" class="pl">GitHub Repository</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact">
+            <h3>CONTACT</h3>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h4>Get in Touch</h4>
+                    <p>I'm open to new opportunities and collaborations!</p>
+                    <ul>
+                        <li><strong>Email:</strong><br>
+                            ✉ <a href="mailto:bba6124@students.uc-bcf.edu.ph">bba6124@students.uc-bcf.edu.ph</a><br>
+                            ✉ <a href="mailto:anterobreanna@gmail.com">anterobreanna@gmail.com</a>
+                        </li>
+                        <li><strong>Phone:</strong> ✆ 09281920776</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h4>Contact Form</h4>
+                    <form action="https://formspree.io/f/xlgggvdv" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
